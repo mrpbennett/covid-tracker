@@ -1,24 +1,5 @@
-# covid-tracker
+# C🦠VID-19 Tracker
 
-## Project setup
-```
-npm install
-```
+I had to rebuild this tracker, the API I was using was out dated. So I decided to rebuil this from React to Vue.js, which I am finding much more enjoyable to use at the moment.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+This tracker displays Global figures and then figurs by countries.

@@ -16,13 +16,13 @@
                         {{ ci.Country }}
                     </td>
                     <td class="border px-4 py-2 text-center">
-                        {{ ci.TotalConfirmed }}
+                        {{ ci.TotalConfirmed | formatNumber }}
                     </td>
                     <td class="border px-4 py-2 text-center">
-                        {{ ci.TotalDeaths }}
+                        {{ ci.TotalDeaths | formatNumber }}
                     </td>
                     <td class="border px-4 py-2 text-center">
-                        {{ ci.TotalRecovered }}
+                        {{ ci.TotalRecovered | formatNumber }}
                     </td>
                     <td class="border px-4 py-2 text-center">
                         {{ ci.Date | formatDate }}
